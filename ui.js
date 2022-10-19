@@ -36,7 +36,7 @@ class Ui {
                             style="width: 200px; height: 200px; object-fit: covers" />
                     </figure>
                     <!-- username -->
-                    <h1 class="fs-3">{profile.name}</h1>
+                    <h1 class="fs-3">${profile.login}</h1>
                     <!-- bio -->
                     <p${profile.bio}</p>
                     <!-- viewProfile -->
